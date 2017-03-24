@@ -44,7 +44,7 @@ function(input, output, clientData, session) {
     }else if(input$domainData == 'animal'){
      
       #includeHTML("/srv/connect/apps/kaggle_shiny/kaggle_shiny_animal.html")
-      includeHTML("kaggle_shiny/kaggle_shiny_animal.html")
+      includeHTML("kaggle_shiny_animal.html")
       
     }
     
